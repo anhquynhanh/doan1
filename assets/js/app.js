@@ -14,7 +14,7 @@ iconCart.addEventListener('click', () => {
 })
 
 let products = null;
-fetch('./data.json').then(
+fetch('/assets/js/data.json').then(
     response => response.json()
 ).then(data => {
     products = data;
